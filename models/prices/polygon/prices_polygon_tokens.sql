@@ -127,5 +127,6 @@ FROM
     --('pbos-phobos-token', 'polygon', 'PBOS', 0x421b9b487d5a9b76e4b81809c0f1b9bb8cb24cb9,18), --inactive
     ('pyr-vulcan-forged', 'polygon', 'PYR', 0x430ef9263e76dae63c84292c3409d61c598e9682,18),
     ('geod-geodnet-token', 'polygon', 'GEOD', 0xac0f66379a6d7801d7726d5a943356a172549adb,18),
-    ('naka-nakamoto-games', 'polygon', 'NAKA', 0x311434160d7537be358930def317afb606c0d737,18)
+    ('naka-nakamoto-games', 'polygon', 'NAKA', 0x311434160d7537be358930def317afb606c0d737,18),
+     ('bonsai-bonsai-token', 'polygon', 'BONSAI', 0x3d2bd0e15829aa5c362a4144fdf4a1112fa29b5c)   
 ) as temp (token_id, blockchain, symbol, contract_address, decimals)
